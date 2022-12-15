@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman", Times, serif;
+}
+.container-fluid{
+	margin-left: 220px;
+}
+/* ---------------- */
+.btn.btn-danger{
+    margin-right: 100px;
+   }
+/* ---------------- */ 
+.main{
+    background: rgb(244,244,244);
+    padding-left: 75px;
+}
+.container{
+    margin:0 15px;
+    display: flex;
+}
+.container__left{
+    width: 530px;
+    background: #fff;
+    flex:1;
+}
+.container__img{
+ display: flex;
+ margin-left:15px;
+}
+.container__img__left{
+padding: 0px 20px;
+margin-top:25px;
+
+}
+.container__image-small{
+ border: 1px solid rgb(204,204,204);
+ border-radius: 10px;
+ margin: auto;
+ width: 60px;
+ padding: 1px;
+ display: inherit;
+ margin-bottom: 10px;
+}
+.container__img__right{
+    background: #fff;
+    margin-right: 30px;
+}
+.container__image-big{
+    width: 100%;
+}
+.container__right{
+    flex:1;
+    background: #fff;
+}
+.container__name{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 50px;
+    line-height: 30px;
+}
+.container__evaluate{
+    font-size: 14px;
+    font-weight: 400;
+}
+.container__evaluate-text{
+   text-decoration: none;
+   padding-left: 10px;
+}
+.yellow{
+    color:yellow;
+}
+.col{
+    width: 56%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.footer{
+	border: 1px solid rgb(209, 209, 209);
+	width: auto;
+	height: 90px;
+	text-align: center;
+	padding-top: 20px;
+	background-color: rgb(165, 165, 165);
+	font-size: 14px;
+}
+
+.fa.fa-facebook-square{
+	font-size:20px;
+	color:#0c08ea;
+}
+

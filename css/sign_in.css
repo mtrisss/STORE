@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Times New Roman", Times, serif;
+}
+body {
+    /* background-color: #e6e6e6; */
+    background: url(../img/body.jpg) center no-repeat;
+}
+body::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.container-fluid{
+	margin-left: 220px;
+}
+.btn.btn-danger{
+    margin-right: 46px;
+   }
+.box-login{
+    width: 400px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /* dịch chuyển item theo trục x,y */
+}
+.box-header{
+    height: 66px;
+    background-color: #399bff;
+    padding: 0px 22px;
+    color: #fff;
+}
+h3 {
+    line-height: 66px; /*Cho bằng chiều cao header để chữ ra giữa */
+}
+.box-header > a{
+    color: white;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+.box-content {
+    background-color: #f2f2f2;
+    padding: 22px;
+}
+
+.row {
+    margin-bottom: 23px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.input-group {
+    position: relative;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+}
+
+.input-group > input {
+    width: 381px;
+    height: 50px;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    border: none;
+}
+.input-group > i{
+    position: absolute;
+    font-size: 22px;
+    top: 16px;
+    right: 16px;
+    color: #b9b9b9;
+}
+a.sign-in{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #399bff;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 32px;
+}
+a.lost-pass{
+    text-decoration: none;
+    color: #999999;
+}

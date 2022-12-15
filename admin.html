@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.jpg">
+
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/bootstrap.js"></script>
+      <script src="./js/less-1.7.0.min.js"></script>
+      
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-inverse" style="background-color: #000;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">STORE CAMERA</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="trangchu.html">Trang Chủ</a></li>
+                    <li><a href="#">Sản Phẩm</a></li>
+                    <li class="active"><a href="sign_in.html"> Admin </a></li>
+                  </ul>
+                <form class="navbar-form  navbar-right" action="/action_page.php" >
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="tìm kiếm sản phẩm ">
+                </div>
+                <button type="submit" class="btn btn-danger">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+                <div  class="sign_out">
+                    <a href="./sign_in.html"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+                </div>
+               
+                </form>
+            </div>
+            </nav>
+    </header>
+    <main class="main">
+
+        <div class="row">
+            <div class="col-sm-3">
+                <ul class="nav nav-stacked">
+                    <li><a href="#"><i style="margin-right: 4px; font-size: 20px; " class="fas fa-home"></i> Quản Lý Sản Phẩm</a></li>
+                    <li><a href="#"><i style="margin-right: 4px; font-size: 20px; " class="fas fa-user-tie"></i> Khách hàng</a></li>
+                    <li><a href="#"><i style="margin-right: 4px; font-size: 20px; " class="fas fa-shopping-cart"></i>Các sản phẩm</a></li>
+                    <li><a href="#"><i style="margin-right: 4px; font-size: 20px; " class="fas fa-clipboard-list"></i> Đơn hàng</a></li>
+                    <li><a href="#"><i style="margin-right: 4px; font-size: 20px; " class="fas fa-chart-bar"></i> Doanh thu</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9">
+                <h2 > Bảng Sản phẩm</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Giá Sản Phẩm</th>
+                            <th>Số Lượng</th>
+                            <th>Thao Tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Sony alpha A7 Mark III, Mới 100% (Chính hãng)</td>
+                            <td>43.990.000đ</td>
+                            <td>50</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr>   
+                        <tr>
+                            <td>2</td>
+                            <td>Máy ảnh Fujifilm X-E3 XF23mm F2 Kit SILVER</td>
+                            <td>20.800.000đ</td>
+                            <td>56</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>3</td>
+                            <td>Canon EOS R + RF 24-105mm F4L, Mới 100% (Chính hãng LBM)</td>
+                            <td>70.490.000đ</td>
+                            <td>10</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>4</td>
+                            <td>Ống kính Samyang AF 14mm F/2.8 for Sony E-Mount / Mới 100% (Chính Hãng)</td>
+                            <td>12.990.000đ</td>
+                            <td>100</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>5</td>
+                            <td>Canon M50 Mark II + 15-45mm (Màu đen), Mới 100% (Chính hãng)</td>
+                            <td>19.999.000đ</td>
+                            <td>10</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>6</td>
+                            <td>Canon M50 Mark II + 15-45mm (Màu trắng), Mới 100% (Chính hãng)</td>
+                            <td>19.999.000đ  </td>
+                            <td>30</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>7</td>
+                            <td>Canon 5D Mark IV (Body only) (Chính hãng)</td>
+                            <td>58.900.000đ</td>
+                            <td>70</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr>  
+                        <tr>
+                            <td>8</td>
+                            <td>Canon EOS R + RF 24-105mm F4L, Mới 100% (Chính hãng LBM)</td>
+                            <td>70.490.000đ</td>
+                            <td>30</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>9</td>
+                            <td>Canon 1D X Mark III, Mới 100% (Chính hãng) </td>
+                            <td>169.000.000đ</td>
+                            <td>30</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>10</td>
+                            <td>Nikon Coolpix P1000, Mới 100% (Chính hãng VIC)</td>
+                            <td>24.990.000đ</td>
+                            <td>10</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>11</td>
+                            <td>Sony A7R Mark III, Mới 90% / 17.000 shot (Chính hãng)</td>
+                            <td>42.900.000đ</td>
+                            <td>12</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>12</td>
+                            <td>Fujifilm X-T3 Body (Màu Bạc), Mới 98%/Fullbox (chính hãng)</td>
+                            <td>21.000.000đ</td>
+                            <td>18</td>
+                            <td>
+                                <i class="action-icon fa fa-plus-square" style="font-size: 20px;color: #119e11;"></i>
+                                <i class="action-icon fa fa-edit" style="font-size: 20px;color: #1e39d1;"></i>
+                                <i class="action-icon fa fa-trash" style="font-size: 20px;color: #d11e1e;"></i>
+                            </td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a href="https://www.facebook.com/mtrisss">
+        <i class="fa fa-facebook-square">   Minh Trí</i>
+        </a>
+        <br>
+        @2021. all right reserved. Nguyễn Minh Trí
+    </footer>
+</body>
+</html>

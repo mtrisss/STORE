@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/logo.jpg">
+
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/bootstrap.js"></script>
+      <script src="./js/less-1.7.0.min.js"></script>
+      
+      <link rel="stylesheet" href="./css/sign_in.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-inverse" style="background-color: #000;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">STORE CAMERA</a>
+                </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="trangchu.html">Trang Chủ</a></li>
+                        <li><a href="#">Sản Phẩm</a></li>
+                        <li class="active"><a href="sign_in.html"> Admin </a></li>
+                    </ul>
+                <form class="navbar-form  navbar-right" action="/action_page.php" >
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="tìm kiếm sản phẩm ">
+                    </div>
+                <button type="submit" class="btn btn-danger">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="box-login">
+        <div class="box-header">
+            <h3>Đăng Nhập</h3>
+            <a href="" class=""><i class="fa fa-times"></i></a>
+        </div>
+        <div class="box-content">
+            <form action="#" method="GET">
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" placeholder="Nhâp tài khoản">
+                        <i class="fa fa-user"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <input type="password" placeholder="Mật khẩu">
+                        <i class="fa fa-lock"></i>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <label  style="margin-bottom: 15px;"> 
+                      <input type="checkbox">ghi nhớ
+                    </label>
+                </div>   
+                <div class="rowlast">
+                    <a href="admin.html" class="sign-in">Đăng nhập</a>
+                    <a href="#" class="lost-pass">Quên mật khẩu ?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

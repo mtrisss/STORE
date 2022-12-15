@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: "Times New Roman", Times, serif;
+}
+.container-fluid{
+	margin-left: 220px;
+}
+.row{
+	margin-right: 0px;
+    margin-left: 0px;
+}
+.btn.btn-danger{
+    margin-right: 46px;
+   }
+.sign_out{
+	float: right;
+	font-size: 25px;
+}
+.nav.nav-stacked a{
+	color: #000;
+	font-weight: 500;
+	font-size: 15px;
+}
+.nav.nav-stacked a:hover{
+	color: rgb(7, 7, 7);
+}
+.footer{
+	border: 1px solid rgb(209, 209, 209);
+	width: auto;
+	height: 90px;
+	text-align: center;
+	padding-top: 20px;
+	background-color: rgb(165, 165, 165);
+	font-size: 14px;
+}
+
+.fa.fa-facebook-square{
+	font-size:20px;
+	color:#0c08ea;
+}
+
+.action-icon{
+    margin-left: 12px;
+}
